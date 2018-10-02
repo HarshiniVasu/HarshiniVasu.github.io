@@ -1,3 +1,46 @@
-body{
-	font-family: "Montserrat", "Avenir";
+body
+{
+			background-image: radial-gradient(73% 147%, #EADFDF 59%, #ECE2DF 100%), radial-gradient(91% 146%, rgba(255,255,255,0.50) 47%, rgba(0,0,0,0.50) 100%);
+ 			background-blend-mode: screen;
+ 			font-family: "Montserrat", "Avenir";
+
 }
+.intro{
+			/*background-image: linear-gradient(-20deg, #ddd6f3 0%, #faaca8 100%, #faaca8 100%);*/
+			background-image: linear-gradient(to left, #BDBBBE 0%, #9D9EA3 100%), radial-gradient(88% 271%, rgba(255, 255, 255, 0.25) 0%, rgba(254, 254, 254, 0.25) 1%, rgba(0, 0, 0, 0.25) 100%), radial-gradient(50% 100%, rgba(255, 255, 255, 0.30) 0%, rgba(0, 0, 0, 0.30) 100%);
+ 			background-blend-mode: normal, lighten, soft-light;
+  			font-size : 25px;
+  			text-align : center;
+  			line-height: 1;
+  			margin-top : -29px;
+		}
+.table{
+			font-size: 25px;
+			margin-top : -29px;
+			text-align: center;
+
+		}
+.data-table{
+			border : none;
+			width : 30%;
+	      	margin-left : 35%;
+	      	margin-right : 15%;
+		}
+.data-table tr th, .data-table tr td{
+	      /*border: 1px solid black;*/
+	      width: 10em;
+	      text-align: center;
+          /*background-image: linear-gradient(-20deg, #ddd6f3 0%, #faaca8 100%, #faaca8 100%);*/
+          background-image: linear-gradient(to left, #BDBBBE 0%, #9D9EA3 100%), radial-gradient(88% 271%, rgba(255, 255, 255, 0.25) 0%, rgba(254, 254, 254, 0.25) 1%, rgba(0, 0, 0, 0.25) 100%), radial-gradient(50% 100%, rgba(255, 255, 255, 0.30) 0%, rgba(0, 0, 0, 0.30) 100%);
+ 		  background-blend-mode: normal, lighten, soft-light;
+
+    	}
+img {
+	    border: 1px solid #ddd; /* Gray border */
+	    border-radius: 4px;  /* Rounded border */
+	    padding: 5px; /* Some padding */
+	    width: 150px; /* Set a small width */
+	}
+	img:hover {
+    	box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+	}
